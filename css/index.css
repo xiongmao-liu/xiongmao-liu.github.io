@@ -1,0 +1,107 @@
+@font-face {
+	font-family: 'DF-Inspirations-One-2';
+	src: url('../font-awesome-4.7.0/fonts/DF-Inspirations-One-2.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'C39HrP36DlTt';
+	src: url('font/c39hrp36dltt.ttf') format('truetype'), url('font/c39hrp36dltt-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: 'FengGuangMingRuiTi-2';
+	src: url('../font-awesome-4.7.0/fonts/FengGuangMingRuiTi-2.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'ShangShouDunHeiTi-2';
+	src: url('../font-awesome-4.7.0/fonts/ShangShouDunHeiTi-2.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'HYPingAnXingJ';
+	src: url('font/HYPingAnXingJ.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HYChunRanShouShuW';
+	src: url('font/HYChunRanShouShuW.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HYHeiLiZhiTiJ';
+	src: url('font/HYHeiLiZhiTiJ.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'langqian';
+	src: url('font/langqian.otf') format('OpenType');
+}
+@font-face {
+	font-family: 'HYPingAnXingJ';
+	src: url('font/HYPingAnXingJ.ttf') format('turetype');
+}
+
+
+
+
+h1{
+	
+	font-family: 'langqian';
+	color: yellow;
+	display: inline;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+ .text {
+    font-size: 14px;
+  }
+
+  .item {
+    margin-bottom: 18px;
+  }
+
+  .clearfix:before,
+  .clearfix:after {
+    display: table;
+    content: "";
+  }
+  .clearfix:after {
+    clear: both
+  }
+
+  .box-card {
+    width: 100%;
+    height: 100%;
+  }
+  .active{
+  	background-color: yellow;
+  }
+header{
+	display: flex;
+	
+}
+#menu li{
+ list-style: none;
+  float: left;
+  padding-left: 50px;
+  
+}
+#menu{
+font-size: 18px;
+margin-left: 60%;
+font-family: "黑体";
+font-weight: bold;
+}
+#menu li a:hover{
+	color: red;
+}
+.el-header{
+	height: 200px;
+}
+.mian {
+	position: absolute;
+	height: 400px;
+	width: 600px;
+	background-color: gainsboro;
+	margin-top: 50px;
+	left: 50%;
+	transform: translate(-50%);
+}

@@ -1,0 +1,121 @@
+@font-face {
+	font-family: 'DF-Inspirations-One-2';
+	src: url('../font-awesome-4.7.0/fonts/DF-Inspirations-One-2.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'C39HrP36DlTt';
+	src: url('font/c39hrp36dltt.ttf') format('truetype'), url('font/c39hrp36dltt-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: 'FengGuangMingRuiTi-2';
+	src: url('../font-awesome-4.7.0/fonts/FengGuangMingRuiTi-2.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'ShangShouDunHeiTi-2';
+	src: url('../font-awesome-4.7.0/fonts/ShangShouDunHeiTi-2.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'HYPingAnXingJ';
+	src: url('font/HYPingAnXingJ.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HYChunRanShouShuW';
+	src: url('font/HYChunRanShouShuW.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HYHeiLiZhiTiJ';
+	src: url('font/HYHeiLiZhiTiJ.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'langqian';
+	src: url('font/langqian.otf') format('OpenType');
+}
+@font-face {
+	font-family: 'HYPingAnXingJ';
+	src: url('font/HYPingAnXingJ.ttf') format('turetype');
+}
+.add a {
+	color: deepskyblue;
+}
+
+.main {
+	width: 99%;
+	height:800px;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	background-color: #FFFFFF;
+	border-radius: 0.25em;
+	margin-top: 30px;
+	padding: 20px;
+}
+.user_load{
+	width: 30%;
+	height: 500px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	background-color: #FFFFFF;
+	border-radius: 0.25em;
+	 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+	padding: 20px;
+	margin-top: 70px;
+	
+}
+h1{
+	margin-left: 180px;
+	font-family: 'langqian';
+	color: dodgerblue;
+}
+.item{
+	  font-size: 2em;
+	text-align: center;
+	 border: 2px solid #e5e4e9;
+	 
+}
+.item-1{
+	left: 50%;
+	text-align: center;  
+}
+.item-2{
+	  grid-row-start: 2;
+      grid-row-end: 3;
+}
+.item-3{
+
+}
+.item-4{
+
+}
+.item-5{
+
+}
+ .text {
+    font-size: 14px;
+  }
+
+
+
+  .clearfix:before,
+  .clearfix:after {
+    display: table;
+    content: "";
+  }
+  .clearfix:after {
+    clear: both
+  }
+
+  .box-card {
+    width: 100%;
+    height: 100%;
+  }
+  .active{
+  	background-color: yellow;
+  }
+ 
+
